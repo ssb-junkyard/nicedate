@@ -1,0 +1,20 @@
+{
+  "name": "nicedate",
+  "description": "nicely formatted dates since 7d ago",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ssbc/nicedate",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ssbc/nicedate.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~3.0.3"
+  },
+  "scripts": {
+    "prepublish": "npm ls &&  npm test",
+    "test": "node test/index.js"
+  },
+  "author": "Paul Frazee <pfrazee@gmail.com>",
+  "license": "MIT"
+}
