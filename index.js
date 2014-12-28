@@ -20,7 +20,7 @@
   ];
 
   module.exports = function (date, useAgo) {
-    var diff = (((new Date.getTime()) - date.getTime()) / 1000);
+    var diff = ((Date.now() - +date) / 1000);
     for( var i=0; i<formatters.length; i++ ){
       if( diff < formatters[i].threshold ){
         return formatters[i].handler(diff, useAgo);
