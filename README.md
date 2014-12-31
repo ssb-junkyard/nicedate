@@ -19,7 +19,13 @@ console.log(nicedate(Date.now() - 1000*60*24*7))
 // 1w
 
 //etc...
+
+// locales
+console.log(nicedate(Date.now() - 1000, true, 'zh'))
+// 1秒前
 ```
+
+current locales: en (default) and zh
 
 ## License
 
