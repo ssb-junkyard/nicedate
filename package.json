@@ -1,7 +1,7 @@
 {
   "name": "nicedate",
   "description": "nicely formatted dates since 7d ago",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/ssbc/nicedate",
   "repository": {
     "type": "git",
